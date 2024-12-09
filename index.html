@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NexPlay - Digital Banking</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.48/build/spline-viewer.js"></script>
+    <spline-viewer url="https://prod.spline.design/MWIxxGeIuvddSHTs/scene.splinecode"></spline-viewer>
+    <header class="navbar">
+        <h1 class="logo">NexPlay</h1>
+        <nav>
+            <ul class="navlist">
+                <li class="navitem"><a href="#home" class="nav-link">Home</a></li>
+                <li class="navitem"><a href="#news" class="nav-link">News</a></li>
+                <li class="navitem"><a href="#security" class="nav-link">Security</a></li>
+                <li class="navitem"><a href="#cards" class="nav-link">Cards</a></li>
+                <li class="navitem"><a href="#user" class="nav-link">User</a></li>
+                <li class="navitem"><a href="#settings" class="nav-link">Settings</a></li>
+                <li class="navitem"><a href="#exit" class="nav-link">Exit</a></li>
+            </ul>
+        </nav>
+        <div class="choose">
+            <button class="button-action">Login</button>
+            <button class="button-action">Sign in</button>
+        </div>
+    </header>
+
+    <main class="Home-main" id="home">
+        <div class="Home-container">
+            <h1 class="text-4xl font-bold">The Future of Banking</h1>
+            <p class="text-lg">Empowering Financial Freedom, Anytime, Anywhere</p>
+            <p class="text-lg">NexPlay is an innovative digital banking platform designed to cater to tech-savvy users.</p>
+            <button class="botton-action-professional">Talk to a Professional</button>
+        </div>
+
+        <section class="News" id="news">
+            <nav class="choose-news flex items-center justify-between px-4 py-2 border-b-2" style="border-color: #777;">
+                <h3 class="text-2xl font-semibold text-white hover:text-purple-600 cursor-pointer">Notices by NexPlay</h3>
+                <ul class="list-choose flex space-x-6">
+                    <li class="item-choose font-bold text-white hover:text-purple-600 cursor-pointer">Popular</li>
+                    <li class="item-choose font-bold text-white hover:text-purple-600 cursor-pointer">New</li>
+                    <li class="item-choose font-bold text-white hover:text-purple-600 cursor-pointer">Trends</li>
+                    <li class="item-choose font-bold text-white hover:text-purple-600 cursor-pointer">Official</li>
+                </ul>
+            </nav>
+
+            <div class="Main-news">
+                <div class="title-notices flex items-center justify-start direction-collumn cursor-pointer">
+                    <p class="text-up font-bold text-white hover:text-purple-600">Popular</p>
+                    <h2 class="text-5xl font-bold text-white hover:text-purple-600">Most Popular News <br> at the moment</h2>
+                </div>
+              
+                <div class="most-popular">
+                    <button class="carousel-button prev">&lt;</button>
+                    <div class="carousel-container">
+                        <div class="carousel-track">
+                            <div class="notice-1">
+                                <div class="image-notice-1"></div>
+                                <h2 class="text-1xl">Notice-1</h2>
+                            </div>
+                            <div class="notice-2">
+                                <div class="image-notice-2"></div>
+                                <h2 class="text-1xl">Notice-2</h2>
+                            </div>
+                            <div class="notice-3">
+                                <div class="image-notice-3"></div>
+                                <h2 class="text-1xl">Notice-3</h2>
+                            </div>
+                            <div class="notice-4">
+                                <div class="image-notice-4"></div>
+                                <h2 class="text-1xl">Notice-4</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-button next">&gt;</button>
+                </div>
+                
+                <article class="statistics"></article>
+
+                <aside class="proposals">
+                    <i class="fa-solid fa-eye"><h5 class="text-xl">Future Vision</h5></i>
+                    <i class="fa-solid fa-lightbulb"><h5 class="text-xl">Innovations</h5></i>
+                    <i class="fa-solid fa-fire"><h5 class="text-xl">F&Q</h5></i>
+                </aside>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
