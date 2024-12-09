@@ -11,6 +11,7 @@
 <body>
     <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.48/build/spline-viewer.js"></script>
     <spline-viewer url="https://prod.spline.design/MWIxxGeIuvddSHTs/scene.splinecode"></spline-viewer>
+
     <header class="navbar">
         <h1 class="logo">NexPlay</h1>
         <nav>
@@ -54,7 +55,7 @@
                     <p class="text-up font-bold text-white hover:text-purple-600">Popular</p>
                     <h2 class="text-5xl font-bold text-white hover:text-purple-600">Most Popular News <br> at the moment</h2>
                 </div>
-              
+
                 <div class="most-popular">
                     <button class="carousel-button prev">&lt;</button>
                     <div class="carousel-container">
@@ -79,14 +80,25 @@
                     </div>
                     <button class="carousel-button next">&gt;</button>
                 </div>
-                
-                <article class="statistics"></article>
 
-                <aside class="proposals">
-                    <i class="fa-solid fa-eye"><h5 class="text-xl">Future Vision</h5></i>
-                    <i class="fa-solid fa-lightbulb"><h5 class="text-xl">Innovations</h5></i>
-                    <i class="fa-solid fa-fire"><h5 class="text-xl">F&Q</h5></i>
-                </aside>
+                <article class="statistics">
+                    <div class="test"></div>
+                </article>
+
+                <aside class="proposals border-l-2 flex items-center justify-start" style="border-color: #777;">
+                    <div class="text-news text-2xl flex flex-col hover:text-purple-600 cursor-pointer">
+                        <i class="fa-solid fa-eye Future-vision"></i>
+                        <h5 class="text-xl">Future Vision</h5>
+                    </div>
+                    <div class="text-news text-2xl flex flex-col hover:text-purple-600 cursor-pointer">
+                        <i class="fa-solid fa-lightbulb Innovations"></i>
+                        <h5 class="text-xl">Innovations</h5>
+                    </div>
+                    <div class="text-news text-2xl flex flex-col hover:text-purple-600 cursor-pointer">
+                        <i class="fa-solid fa-fire F&Q"></i>
+                        <h5 class="text-xl">F&Q</h5>
+                    </div>
+                </aside>                
             </div>
         </section>
     </main>
